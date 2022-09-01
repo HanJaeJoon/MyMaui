@@ -31,8 +31,15 @@
             <Button
                 x:Name="CameraBtn"
                 Text="Camera"
-                SemanticProperties.Hint="Counts the number of times you click"
+                SemanticProperties.Hint="take a picture"
                 Clicked="OnCameraClickedAsync"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="PickBtn"
+                Text="Pick"
+                SemanticProperties.Hint="pick your photos"
+                Clicked="OnPickClickedAsync"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>
